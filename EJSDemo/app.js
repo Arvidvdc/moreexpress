@@ -11,7 +11,16 @@ app.get("/",(req,res) => {
 app.get("/fallinlovewith/:thing",(req,res) => {
     var thing = req.params.thing;
 
-    res.render("love.ejs",{thingVar: thing});
+    res.render("love.ejs", {thingVar: thing} );
+});
+
+app.get("/posts",(req,res) => {
+    var posts = [
+        {title: "Posts 1", author: "Susy"},
+        {title: "Biertje", author: "Arvid"},
+        {title: "Dit geloof je niet", author: "Admin"}
+    ];
+    res.render("posts.ejs", {posts: posts});
 });
 
 // Listener
