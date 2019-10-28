@@ -1,0 +1,22 @@
+{
+  "name": "moreexpress",
+  "version": "1.0.0",
+  "description": "Udemy sectie 26",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arvidvdc/moreexpress.git"
+  },
+  "author": "Arvid van de Crommert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arvidvdc/moreexpress/issues"
+  },
+  "homepage": "https://github.com/Arvidvdc/moreexpress#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
